@@ -32,18 +32,19 @@ var rotateRight = function(head, k) {
     }
     curr.next = head 
     
-    var newTail = head
-    for(var i=0; i< n - k % n - 1;i++){
-        newTail = newTail.next
+    var new_tail = head
+    for(var i = 0; i< n - k % n - 1; i++){
+        new_tail = new_tail.next
     }
-    var newHead = newTail.next
-    newTail.next = null
-    return newHead
+    var new_head = new_tail.next
+    new_tail.next = null
+    return new_head
 }
 ```
 
 ## Examples
 
+![alt text](https://github.com/SushmithaBN/coding-problems/blob/dummy/list.png)
 
 ## Resources
 
