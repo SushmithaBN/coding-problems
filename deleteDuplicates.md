@@ -38,6 +38,8 @@ var deleteDuplicates = function(head) {
 ## Examples
 Input: head = [1,1,2,3,3]
 Output: [1,2,3]
+
+
 ![alt text](https://github.com/SushmithaBN/coding-problems/blob/dummy/list2.jpeg)
 
 ## Resources
